@@ -1,0 +1,88 @@
+.main-container-card {
+    /* display: grid;
+    grid-template-columns: repeat(3, 32.72%);  
+    gap: 10px;              */
+    width: 100%;    
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.card-header .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.name-and-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.SemiCircleProgressBar > svg {
+    margin-left: 20px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.Description {
+    font-size: 12px;
+    color: gray;
+    margin: 20px 20px;
+}
+
+.percentage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.table {
+    margin: 20px 20px;
+}
+
+.card-container {
+    background: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-height: 400px;
+    box-sizing: border-box;
+    width: 100%;  
+}
+
+.timeLine-progress {
+    margin-left: 20px;
+}
+
+ 
+ 

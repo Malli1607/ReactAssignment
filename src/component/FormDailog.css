@@ -1,0 +1,104 @@
+ 
+
+.select{
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-width: 1px !important;
+      }
+}
+
+ 
+
+.edit-container {
+    border: 1px solid #ddd;  
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;  
+    width: 89%;
+    border-radius: 5px;
+     
+  }
+  .multi1 {
+    display: inline;
+       margin-left: 10px;
+  }
+  
+   
+  .button-container {
+    position: absolute;
+    top: 35%; 
+    /* right: -40px;   */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 98%;
+  }
+
+  .text-name{
+    border: 1px solid #ddd;  
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;  
+    width: 89%;
+    border-radius: 5px;
+   
+
+  }
+  
+  .table-btn {
+    /* padding: 8px; */
+    /* border-radius: 50%; */
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .table-btn:hover {
+    background-color: #f0f0f0;
+  } */
+  /* Adjusting the container to align children side by side */
+.multi {
+  display: flex;
+  gap: 10px; /* Adjust the space between the dropdown and text field */
+  align-items: center;
+}
+
+/* Styling the individual FormControl to have equal width */
+.text-name {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 90%; /* or adjust to a percentage */
+  border-radius: 5px;
+}
+
+/* Ensure the text field and select are aligned correctly */
+/* .MuiFormControl-root {
+  margin-top: ;
+  width: 40%; /* Ensures both elements are of equal width */
+
+/* Optional: Adjust the styling of the dropdown and input field */
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-width: 1px !important;
+}
+
+/* Style the dropdown to match */
+.MuiSelect-root {
+  font-size: 12px;
+  padding: 6px 8px;
+}
+
+  /* In App.css */
+.custom-header {
+    background-color: #f4f4f4 !important;
+    padding: 12px !important;
+    border-bottom: 1px solid #ddd !important;
+    text-align: left !important;
+  }
+  .table-container {
+  
+     margin-top: 8px;
+  }
+  

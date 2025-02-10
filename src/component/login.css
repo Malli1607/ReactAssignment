@@ -1,0 +1,167 @@
+ 
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 24px; */
+  
+}
+  
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-top: 24px;
+    
+    font-weight: 300;
+    color: gray;
+  }
+  
+  .t1 {
+    font-size: 22px;
+    color: black;
+  }
+  
+  .signup-link {
+    text-align: right;
+    font-size: 14px;
+    color: #1976d2;
+  }
+  
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 24px 0px 0px 24px; */
+    width: 100%;  
+  }
+  .label{
+    font-size: 12px;
+  }
+  
+  .input-group InputLabel {
+    font-size: 12px;
+    margin-bottom: 3px;
+     
+  }
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  .MuiTextField-root {
+    width: 100%;
+  }
+  
+  .input-field .MuiInputBase-input {
+    font-size: 12px;
+    color: gray;
+    padding: 12px;
+  }
+  
+ 
+  .footer {
+    margin-top: 24px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .checkbox-label .MuiFormControlLabel-label {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  
+  .login-button {
+    margin-top: 24px;
+    width: 95%;
+    text-transform: none !important;
+  }
+  
+  
+  .divider-container {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 24px;
+  }
+  
+  .divider {
+    flex-grow: 1;
+  }
+  
+  .divider-text {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  
+ 
+  .social-buttons {
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+  }
+  
+  .social-button {
+    width: 8rem;
+    /* border: 1px solid #cecece !important; */
+    text-transform: none !important;
+    color: black !important;
+  }
+  
+  .inputContainer{
+    width: 95%;
+    margin-top: 24px;
+    font-size: 12px;
+  }
+
+  .social-button:hover{
+    color: #1976d2 !important;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;  
+    align-items: center; 
+    justify-content: flex-start;  
+    padding: 10px;  
+    height: 100vh;  
+  } 
+  
+.alert {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+ 
+.error-message {
+  font-size: 10px;
+  color: red;
+  margin-top: 5px;
+  /* Make sure the error message is at a fixed position below the input field */
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+

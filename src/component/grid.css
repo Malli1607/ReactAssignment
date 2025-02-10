@@ -1,0 +1,193 @@
+ 
+
+.header-card-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.sub-header-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-card-symbol {
+  margin-right: 10px;
+}
+
+.header-card-title {
+  flex: 1;
+  font-size: 16px;
+  width: 50px;
+}
+
+.header-card-data-container {
+  margin-top: 10px;
+}
+
+.header-card-data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-card-data {
+  margin: 5px;
+}
+ 
+/* .header-card-container {
+  position: relative;
+  overflow: hidden;
+} */
+
+ 
+.sub-header-card-container .action-buttons {
+  display: none;
+}
+
+ 
+.header-card-container .sub-header-card-container .action-buttons { 
+  display: flex; 
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+ 
+.edit-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #ccc;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+ 
+/* .header-card-container {
+  position: relative;
+  overflow: hidden;
+} */
+
+ 
+.sub-header-card-container .action-buttons {
+  display: none;
+}
+
+ 
+/* .header-card-container:hover .sub-header-card-container .action-buttons {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+} */
+
+ 
+/* .header-card-container:hover .edit-button {
+  display: block;
+} */
+
+ 
+.edit-button {
+  display: none;
+  /* position: absolute; */
+  top: 5px;
+  left: 5px;
+  background-color: #ccc;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+ 
+/* .add-button-bottom-right {
+  /* position: absolute; */
+   
+  /* margin-top: 600px;
+  bottom: 10px;
+  right: 40px;
+  font-size: 20px;
+} */ */
+
+/* .btn{
+  /* margin-top: 90px;
+  margin-left: 95%; */
+  /* position: fixed; */
+/* } */ 
+.right{
+  margin-top: 100px;
+}
+ 
+/* Container for the header card */
+.header-card-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  position: relative; /* Ensure relative positioning for the inner button container */
+}
+
+/* The container for the button actions */
+.sub-header-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ 
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ 
+.sub-header-card-container .action-buttons {
+  display: none;   
+  position: absolute;  
+  top: 5px;
+  right: 5px;
+}
+
+ 
+.header-card-container:hover .sub-header-card-container .action-buttons {
+  display: flex;
+}
+
+ 
+.iconButton {
+  font-size: 12px;
+  width: 20px;   
+}
+
+ 
+.iconButton:hover {
+  background-color: transparent;
+}
+
+ 
+.iconButton {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ 
+.sub-header-card-container .action-buttons {
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+.title-btn:hover{
+  background-color: white;
+  color: grey !important;
+
+}
+.table-btn{
+  font-size: 14px;
+  text-transform: lowercase;
+}

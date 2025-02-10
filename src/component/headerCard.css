@@ -1,0 +1,99 @@
+.header-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header-card-container {
+    width: 100%;
+    height: 100px;
+    background: #f9f9f9;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+     
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 10px 10px 0px; */
+    width: 100%;
+  }
+  
+  .header-card-symbol {
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+  }
+  
+  .header-card-title {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .header-card-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    padding: 0px 10px 10px 50px;
+  }
+  
+  .header-card-data-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;  
+  }
+  
+  .header-card-data {
+    color: black;
+    padding-bottom: 5px;
+    width: 45%;   
+  }
+  
+  .header-card-progress-bar {
+    margin-bottom: 10px;
+    margin-left: -20px;
+  }
+  .sub-header-card-container{
+
+    width: 100%;
+    /* margin-left: 50px; */
+  }
+  .react-grid-item.resizing {
+    box-shadow: 0 0 0 2px #000000;
+  }
+  
+  .react-grid-item .react-resizable-handle {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .card-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+    button {
+    background-color: #f9f9f9;
+    border: none;
+  }
+  
+  

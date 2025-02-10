@@ -1,0 +1,44 @@
+.text{
+    width: 100%;
+}
+.MuiAlert-root.MuiAlert-standardSuccess{
+    background-color: green;
+}
+.MuiAlert-root.MuiAlert-standardError{
+    background-color: red !important;
+}
+/* 
+.MuiDialog-paperWidthSm  {
+    width: 450px !important;
+} */
+
+.css-rizt0-MuiTypography-root{
+
+    font-size: 12px !important;
+}
+.css-1bz1rr0-MuiSvgIcon-root {
+    width: 15px !important;
+    height: 15px !important;
+}
+.charts{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.text-area{
+    padding:  10px 10px;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 3px;
+    width:100%;
+     height:80px;
+
+}
+.text-area:focus{
+    border: 1px solid rgb(0, 174, 255) !important;
+}
+.text-area:hover{
+    border: 1px solid black;
+}
+ 
