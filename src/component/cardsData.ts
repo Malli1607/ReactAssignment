@@ -16,6 +16,11 @@ export interface Card {
 
   //heekffel
 
+
+
+
+
+  
 export const data: Card[] = [
   {
     Title: "Ackto NCR Expansion",
