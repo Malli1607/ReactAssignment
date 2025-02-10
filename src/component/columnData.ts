@@ -5,6 +5,11 @@ export interface ColumnData {
     accessorKey : string
 }
 
+
+
+
+
+
 export const tableColumnData = [{
     header : '',
     dataType : 'text',

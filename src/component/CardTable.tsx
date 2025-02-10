@@ -14,6 +14,9 @@ interface CardTableProps {
   progressData: ProgressItem[];  
 }
 
+
+
+
 const CardTable: React.FC<CardTableProps> = ({ progressData }) => {
   const getStatusColor = (value: number) => {
     if (value === 0) return '#0000FF';   
